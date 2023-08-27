@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(12, 35, 8);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 600px;
+  background-color: rgb(189, 227, 175);
+  border-radius: 32px;
+}
+
+.title-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.title {
+  color: rgb(12, 35, 8);
+  font-weight: 900;
+  font-size: 3rem;
+}
+.label {
+  align-self: flex-start;
+  padding: 0.5rem;
+  width: 300px;
+  margin-left: 1rem;
+}
+.button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul li {
+  color: rgb(12, 35, 8);
+  font-size: 2rem;
+  list-style-type: none;
+}
+.done-act {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.style{
+  cursor: pointer;
+}
