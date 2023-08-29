@@ -5,11 +5,16 @@ let btn = document.querySelector("button");
 let input = document.querySelector("input");
 let root = document.getElementById("root");
 input.focus();
+
+
 // functions
+
 function addTodo() {
+
   // update model
   DATA.push(input.value);
   input.focus()
+
   // update ui
   render();
 }
